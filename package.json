@@ -8,10 +8,10 @@
   },
   "dependencies": {
     "connect": "^3.7.0",
-    "vite-plugin-mock-dev-server": "^1.9.2",
+    "vite-plugin-mock-dev-server": "^1.9.3",
     "cors": "^2.8.5",
     "mockjs": "^1.1.0",
-    "@netlify/functions": "^1.4.0"
+    "@netlify/functions": "^5.1.1"
   },
   "pnpm": {
     "peerDependencyRules": {

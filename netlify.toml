@@ -4,7 +4,16 @@
   publish = "."
 
 [[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/mock-api"
+  status = 200
+
+[[redirects]]
   from = "/admin-api/*"
   to = "/.netlify/functions/mock-api"
   status = 200
-  force = true
+
+[[redirects]]
+  from = "/.netlify/functions/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
