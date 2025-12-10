@@ -26,6 +26,6 @@ app.use(baseMiddleware(compiler, {
   logger,
 }));
 
-server.listen(8080);
+server.listen(process.env.PORT || 8080);
 
 console.log('listen: http://localhost:8080');
