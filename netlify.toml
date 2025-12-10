@@ -1,0 +1,6 @@
+[build]
+  base = "."
+  command = "npm start"
+
+[build.environment]
+  NODE_VERSION = "22.16.0"
