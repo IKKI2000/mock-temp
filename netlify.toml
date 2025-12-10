@@ -1,6 +1,10 @@
 [build]
-  base = "."
-  command = "npm start"
+  command = "npm install"
+  functions = "netlify/functions"
+  publish = "."
 
-[build.environment]
-  NODE_VERSION = "22.16.0"
+[[redirects]]
+  from = "/admin-api/*"
+  to = "/.netlify/functions/mock-api"
+  status = 200
+  force = true

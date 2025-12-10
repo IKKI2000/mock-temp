@@ -2,13 +2,16 @@
   "name": "mock-server",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "netlify build",
+    "dev": "netlify dev"
   },
   "dependencies": {
     "connect": "^3.7.0",
     "vite-plugin-mock-dev-server": "^1.9.2",
     "cors": "^2.8.5",
-    "mockjs": "^1.1.0"
+    "mockjs": "^1.1.0",
+    "@netlify/functions": "^1.4.0"
   },
   "pnpm": {
     "peerDependencyRules": {
