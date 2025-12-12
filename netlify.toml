@@ -1,0 +1,10 @@
+[build]
+  command = "echo 'No build needed for mock server'"
+  publish = "."
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/admin-api/*"
+  to = "/.netlify/functions/mock-server"
+  status = 200
+  force = true
