@@ -8,3 +8,7 @@
   to = "/.netlify/functions/mock-server"
   status = 200
   force = true
+
+[functions]
+  included_files = ["node_modules/vite-plugin-mock-dev-server/**"]
+  node_version = "22.16.0"
