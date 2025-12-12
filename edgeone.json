@@ -1,0 +1,8 @@
+{
+  "name": "mock-temp",
+  "framework": "express",
+  "buildCommand": "npm install",
+  "outputDir": ".",
+  "devCommand": "npm start",
+  "installCommand": "npm install"
+}
