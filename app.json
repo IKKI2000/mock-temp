@@ -1,0 +1,5 @@
+{
+    "server": {
+        "containerPort": 8080
+    }
+}
